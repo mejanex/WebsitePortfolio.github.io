@@ -43,7 +43,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-slate-500 mb-1">Email</p>
-                    <p className="text-slate-900 font-semibold group-hover:text-blue-600 transition-colors">emilio.lopez@email.com</p>
+                    <p className="text-slate-900 font-semibold group-hover:text-blue-600 transition-colors">emil46284@email.com</p>
                   </div>
                 </a>
 
@@ -78,7 +78,7 @@ export default function Contact() {
             <div className="bg-slate-900 rounded-2xl p-8 text-white">
               <h3 className="text-lg font-bold mb-4">Connect with me</h3>
               <div className="flex gap-4">
-                {['LinkedIn', 'Twitter', 'Upwork'].map((social) => (
+                {['Linkedin', 'Facebook', 'OnlineJobsPH'].map((social) => (
                   <a 
                     key={social}
                     href="#"
@@ -98,9 +98,9 @@ export default function Contact() {
                 <div className="space-y-2">
                   <label className="text-sm font-semibold text-slate-700">Name</label>
                   <input 
-                    type="text" 
-                    className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400"
-                    placeholder="John Doe"
+                  type="text" 
+                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400 text-slate-900"
+                  placeholder="John Doe"
                   />
                 </div>
                 
@@ -108,7 +108,7 @@ export default function Contact() {
                   <label className="text-sm font-semibold text-slate-700">Email</label>
                   <input 
                     type="email" 
-                    className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400"
+                    className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400 text-slate-900"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                 <label className="text-sm font-semibold text-slate-700">Subject</label>
                 <input 
                   type="text" 
-                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400"
+                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all placeholder:text-slate-400 text-slate-950"
                   placeholder="How can I help you?"
                 />
               </div>
@@ -127,7 +127,7 @@ export default function Contact() {
                 <label className="text-sm font-semibold text-slate-700">Message</label>
                 <textarea 
                   rows={5}
-                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none placeholder:text-slate-400"
+                  className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none placeholder:text-slate-400 text-slate-900"
                   placeholder="Tell me about your project and how I can assist you..."
                 />
               </div>
