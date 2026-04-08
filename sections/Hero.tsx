@@ -66,15 +66,15 @@ export default function Hero() {
         <div className="mt-16 pt-8 border-t border-slate-200/60">
           <div className="flex justify-center gap-8 md:gap-16 text-sm text-slate-500">
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-slate-800">50+</span>
+              <span className="text-2xl font-bold text-slate-800">20+</span>
               <span>Clients Helped</span>
             </div>
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-slate-800">5+</span>
+              <span className="text-2xl font-bold text-slate-800">1+</span>
               <span>Years Experience</span>
             </div>
             <div className="flex flex-col items-center">
-              <span className="text-2xl font-bold text-slate-800">99%</span>
+              <span className="text-2xl font-bold text-slate-800">50%</span>
               <span>Satisfaction</span>
             </div>
           </div>
