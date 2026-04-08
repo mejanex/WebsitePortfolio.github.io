@@ -38,15 +38,15 @@ export default function About() {
             {/* Stats row */}
             <div className="flex gap-8 mb-8">
               <div>
-                <div className="text-3xl font-bold text-slate-900">5+</div>
+                <div className="text-3xl font-bold text-slate-900">1+</div>
                 <div className="text-sm text-slate-500">Years Experience</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-slate-900">50+</div>
+                <div className="text-3xl font-bold text-slate-900">20+</div>
                 <div className="text-sm text-slate-500">Projects Completed</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-slate-900">99%</div>
+                <div className="text-3xl font-bold text-slate-900">50%</div>
                 <div className="text-sm text-slate-500">Client Satisfaction</div>
               </div>
             </div>
