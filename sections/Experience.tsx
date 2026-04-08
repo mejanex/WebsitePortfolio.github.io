@@ -116,8 +116,8 @@ export default function Experience() {
         {/* Bottom stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { value: "6+", label: "Years Experience" },
-            { value: "4", label: "Industries" },
+            { value: "1+", label: "Years Experience" },
+            { value: "2", label: "Industries" },
             { value: "100%", label: "Commitment" },
             { value: "∞", label: "Learning" },
           ].map((stat) => (
